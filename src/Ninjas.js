@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Ninjas(props) {
-    const { ninjas } = props;
+const Ninjas = ({ ninjas }) =>  {
+    // const { ninjas } = props;
     
     const ninjaList = ninjas.map(ninja => {
         return (
